@@ -1,0 +1,62 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #040404;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: .5rem;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 2em;
+    font-weight: 100;
+    font-stretch: condensed;
+    letter-spacing: .2em;
+}
+
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    padding: 15px;
+}
+
+.galeria-item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.galeria-item-nombre{
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: .5rem;
+}
+
+.galeria-item-nombre h4{
+    font-size: 1.5em;
+    font-weight: 100;
+    font-stretch: condensed;
+}
